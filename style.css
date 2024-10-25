@@ -4546,7 +4546,7 @@ body {
             background-color: #ffffff;
 
             width: 100%;
-            height: 3800px;
+            height: 4000px;
 
             display: flex;
             flex-direction: column;
@@ -4601,7 +4601,7 @@ body {
 
             #quemSomos {
                 width: 100%;
-                height: 480px;
+                height: 700px;
 
                 display: flex;
                 flex-direction: column;
@@ -4632,23 +4632,21 @@ body {
 
                 #text-quemSomos {
                     width: 90%;
-                    height: 450px;
-                    padding-top: 40px;
-
+                    height: 430px;
                     display: flex;
-                    flex-direction: row;
-                    align-items: start;
+                    flex-direction: column;
+                    align-items: center;
                     justify-content: center;
                     gap: 2em;
 
                     img {
-                        width: 300px;
+                        width: 400px;
                         border-radius: 10px;
                         box-shadow: 2px 2px #9E0F26;
                     }
 
                     #text-right {
-                        width: 50%;
+                        width: 400px;
                         display: flex;
                         flex-direction: column;
                         align-items: flex-start;
@@ -4708,7 +4706,7 @@ body {
 
             #clientes {
                 width: 100%;
-                height: 2120px;
+                height: 1920px;
                 color: white;
                 padding-top: 60px;
                 text-align: center;
