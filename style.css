@@ -4994,7 +4994,7 @@ body {
     body {
         header {
             ul {
-                width: 330px;
+                width: 280px;
                 .remove-links {
                     display: none;
                 }
