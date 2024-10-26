@@ -37,7 +37,7 @@ body {
 
     main {
 
-        background: #f3f3f3;
+        background: #830a1e;
         width: 100%;
         padding: 50px 0 50px 0;
 
@@ -56,9 +56,9 @@ body {
             background-color: rgb(255, 255, 255);
 
             border-radius: 2px;
-            -webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.23);
-            -moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.23);
-            box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.23);
+            -webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.23);
+            -moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.23);
+            box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.23);
 
             display: flex;
             align-items: center;
@@ -72,7 +72,7 @@ body {
                     color: #3F3F3F;
                     text-align: center;
                 }
-    
+
                 .autoria {
                     margin-top: 20px;
                     width: 100%;
@@ -80,35 +80,40 @@ body {
                     display: flex;
                     flex-direction: row;
                     gap: 5px;
-    
-    
+
+
                     .publicacao {
                         color: #A01027;
                         font-weight: bolder;
                     }
-    
+
                     .autor {
                         color: #7F7F7F;
                     }
                 }
-                .initial-text{
+
+                .initial-text {
                     margin-top: 20px;
                     font-size: 21px;
                     color: #555555;
                 }
+
                 img {
                     margin-top: 20px;
                     width: 100%;
                     height: 400px;
                     object-fit: cover;
                 }
-                .final-text{
+
+                .final-text {
                     margin-top: 20px;
                     font-size: 21px;
                     color: #555555;
                 }
-                
-            };
+
+            }
+
+            ;
 
         }
 
@@ -122,11 +127,11 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: rgb(117, 0, 19);
-        background: -moz-linear-gradient(90deg, rgba(117, 0, 19, 1) 0%, rgba(158, 7, 31, 1) 50%, rgba(111, 0, 18, 1) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(117, 0, 19, 1) 0%, rgba(158, 7, 31, 1) 50%, rgba(111, 0, 18, 1) 100%);
-        background: linear-gradient(90deg, rgba(117, 0, 19, 1) 0%, rgba(158, 7, 31, 1) 50%, rgba(111, 0, 18, 1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#750013", endColorstr="#6f0012", GradientType=1);
+        background: rgb(71, 0, 13);
+        background: -moz-linear-gradient(90deg, rgba(71, 0, 13, 1) 0%, rgba(27, 0, 5, 1) 50%, rgba(71, 0, 13, 1) 100%);
+        background: -webkit-linear-gradient(90deg, rgba(71, 0, 13, 1) 0%, rgba(27, 0, 5, 1) 50%, rgba(71, 0, 13, 1) 100%);
+        background: linear-gradient(90deg, rgba(71, 0, 13, 1) 0%, rgba(27, 0, 5, 1) 50%, rgba(71, 0, 13, 1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#47000d", endColorstr="#47000d", GradientType=1);
 
         .bar {
             background-color: #380009;
@@ -136,17 +141,17 @@ body {
 
         .links {
             margin-top: 35px;
-            width: 200px;
+            width: 15%;
             display: flex;
             justify-content: space-around;
             align-items: center;
-            gap: 25px;
         }
 
         .contacts {
             margin-top: 25px;
-            width: 700px;
+            width: 40%;
             display: flex;
+            align-items: center;
             justify-content: space-around;
 
             a {
@@ -158,8 +163,30 @@ body {
 
                 display: flex;
                 align-items: center;
-                gap: 12px;
+                gap: 10px;
             }
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    body {
+        main {
+            .notice {
+                width: 90%;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    footer {
+        height: 460px;
+
+        .contacts {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
         }
     }
 }
