@@ -5004,7 +5004,7 @@ body {
                     padding: 0px 7px;
                     color: #ffffff;
                     font-size: 16px;
-                    font-weight: 700;
+                    font-weight: 00;
                 }
             }
         }
@@ -5036,7 +5036,7 @@ body {
                 }
 
                 #main-logo {
-                    margin-left: 0px;
+                    margin-right: -60px;
                     width: 200px;
                     height: 80%;
                     display: flex;
