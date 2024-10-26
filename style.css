@@ -5032,11 +5032,11 @@ body {
 
                 #architect {
                     width: 350px;
-                    margin-left: -30px;
+                    margin-left: 10px;
                 }
 
                 #main-logo {
-                    margin-right: -60px;
+                    margin-right: -100px;
                     width: 200px;
                     height: 80%;
                     display: flex;
