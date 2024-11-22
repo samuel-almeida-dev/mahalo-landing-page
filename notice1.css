@@ -49,7 +49,7 @@ body {
         -moz-box-shadow: inset 0px 6px 16px 5px rgba(0, 0, 0, 0.58);
         box-shadow: inset 0px 6px 16px 5px rgba(0, 0, 0, 0.58);
 
-        .notices {
+        .notice {
             margin-top: 20px;
 
             width: 65%;
@@ -66,71 +66,74 @@ body {
 
             .model {
                 padding: 50px 0 50px 0;
-                width: 90%;
+                width: 70%;
 
                 h1 {
                     color: #3F3F3F;
                     text-align: center;
                 }
 
-                a{
-                    color: #3F3F3F;
-                    text-decoration: none;
+                .autoria {
+                    margin-top: 20px;
+                    width: 100%;
+                    height: 30px;
+                    display: flex;
+                    flex-direction: row;
+                    gap: 5px;
+
+
+                    .publicacao {
+                        color: #A01027;
+                        font-weight: bolder;
+                    }
+
+                    .autor {
+                        color: #7F7F7F;
+                    }
                 }
 
-                #cards {
-                    display: flex;
-                    justify-content: space-evenly;
-                    flex-direction: row;
-                    flex-wrap: wrap;
+                .initial-text {
+                    margin-top: 20px;
+                    font-size: 21px;
+                    color: #555555;
+                }
 
-                    .card-notice {
-                        margin-top: 3%;
-                        width: 47%;
-                        height: 470px;
-                        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                        border-radius: 10px;
-                        display: flex;
-                        align-items: start;
-                        justify-content: center;
-                        flex-direction: column;
-                        padding: 30px;
+                img {
+                    margin-top: 20px;
+                    width: 100%;
+                    height: 400px;
+                    object-fit: cover;
+                }
 
-                        h2 {
-                            margin-top: 10px;
-                            font-size: 22px;
-                        }
-
-                        img {
-                            margin-top: 6px;
-                            width: 100%;
-                            height: 70%;
-                            object-fit:contain;
-                        }
-
-
-                        .autoria {
-                            margin-top: 6px;
-                            display: flex;
-                            flex-direction: row;
-                            font-size: 16px;
-                            color: #222222;
-
-                            .autor {
-                                color: #380009;
-                                font-weight: bold;
-                            }
-                        }
-                    }
-                    .card-notice:hover{
-                        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-                        transition: 1s;
-                        background-color: #ffebee;
-                    }
+                .final-text {
+                    margin-top: 20px;
+                    font-size: 21px;
+                    color: #555555;
                 }
 
             }
 
+            ;
+
+        }
+
+        .social-share {
+            margin-top: 30px;
+            gap: 10px !important;
+
+            .btn {
+                background-color: white;
+                color: #3F3F3F;
+                border-radius: 20px;
+                gap: 20px;
+            }
+
+            .btn:hover {
+                background-color: #A01027;
+                color: white;
+                box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px;
+                transition: 1s;
+            }
         }
 
     }
