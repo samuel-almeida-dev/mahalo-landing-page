@@ -61,7 +61,7 @@ body {
     main {
         background-color: #ffffff;
         width: 100%;
-        height: 2950px;
+        height: 3550px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -198,6 +198,71 @@ body {
                 }
 
             }
+
+        }
+
+        #company {
+            width: 100%;
+            height: 610px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+            h1 {
+                font-family: "Poppins", sans-serif;
+                font-size: 2.5em;
+                margin-top: 50px;
+            }
+
+            img {
+                margin-top: 20px;
+                height: 130px;
+                width: 130px;
+
+
+            }
+
+            .icon {
+                transition: transform 0.3s ease, filter 0.3s ease;
+                cursor: pointer;
+            }
+
+            .icon:hover {
+                transform: scale(1.2);
+                filter: brightness(1.3);
+            }
+
+            p {
+                font-family: "Poppins", sans-serif;
+                font-size: 1.2em;
+                width: 90%;
+                text-align: center;
+                margin-top: 20px;
+            }
+
+            #policy {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center
+            }
+
+            ;
+
+            #mission {
+                text-align: center;
+                margin-top: 20px;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+
+            }
+
+
+
+            ;
 
         }
 
@@ -488,7 +553,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 2950px;
+            height: 3550px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -855,7 +920,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3300px;
+            height: 3900px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1227,7 +1292,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3300px;
+            height: 4000px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1601,7 +1666,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3730px;
+            height: 4400px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1751,6 +1816,10 @@ body {
 
                 }
 
+            }
+
+            #company {
+                height: 640px;
             }
 
             #clientes {
@@ -1979,7 +2048,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3730px;
+            height: 4450px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -2133,6 +2202,10 @@ body {
 
                 }
 
+            }
+
+            #company {
+                height: 640px;
             }
 
             #clientes {
@@ -2386,7 +2459,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3730px;
+            height: 4450px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -2539,6 +2612,10 @@ body {
 
                 }
 
+            }
+
+            #company {
+                height: 670px;
             }
 
             #clientes {
@@ -2792,7 +2869,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3550px;
+            height: 4300px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -2945,6 +3022,10 @@ body {
 
                 }
 
+            }
+
+            #company {
+                height: 720px;
             }
 
             #clientes {
@@ -3209,7 +3290,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3550px;
+            height: 4350px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -3362,6 +3443,10 @@ body {
 
                 }
 
+            }
+
+            #company {
+                height: 750px;
             }
 
             #clientes {
@@ -3602,7 +3687,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3450px;
+            height: 4300px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -3757,6 +3842,10 @@ body {
 
                 }
 
+            }
+
+            #company {
+                height: 750px;
             }
 
             #clientes {
@@ -4021,7 +4110,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 3750px;
+            height: 4700px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -4178,9 +4267,13 @@ body {
 
             }
 
+            #company {
+                height: 800px;
+            }
+
             #clientes {
                 width: 100%;
-                height: 1880px;
+                height: 1950px;
                 color: white;
                 padding-top: 60px;
                 text-align: center;
@@ -4469,7 +4562,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 4000px;
+            height: 4800px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -4625,9 +4718,13 @@ body {
 
             }
 
+            #company {
+                height: 850px;
+            }
+
             #clientes {
                 width: 100%;
-                height: 1920px;
+                height: 2120px;
                 color: white;
                 padding-top: 60px;
                 text-align: center;
@@ -4925,7 +5022,7 @@ body {
         main {
             background-color: #ffffff;
             width: 100%;
-            height: 4000px;
+            height: 5000px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -5082,9 +5179,17 @@ body {
 
             }
 
+            #company {
+                height: 900px;
+
+                p {
+                    font-size: 1.1em;
+                }
+            }
+
             #clientes {
                 width: 100%;
-                height: 1920px;
+                height: 2000px;
                 color: white;
                 padding-top: 60px;
                 text-align: center;
